@@ -18,7 +18,7 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
 
     <NoWarn>$(NoWarn);CS1591</NoWarn>
-    <EnablePackageValidation>true</EnablePackageValidation>
+    <EnablePackageValidation>false</EnablePackageValidation>
   </PropertyGroup>
 
   <ItemGroup>
@@ -31,7 +31,6 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.3" PrivateAssets="all" />
     <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.0.1" PrivateAssets="all" />
-    <ProjectReference Include="..\StronglyTypedIds.Attributes\StronglyTypedIds.Attributes.csproj" PrivateAssets="All" />
   </ItemGroup>
 
   <ItemGroup>
@@ -39,11 +38,4 @@
     <EmbeddedResource Include="Templates\**\*.cs" />
     <EmbeddedResource Include="..\StronglyTypedIds.Attributes\*.cs" Link="Templates\Sources\%(Filename)%(Extension)" />
   </ItemGroup>
-
-  <ItemGroup>
-    <None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
-    <None Include="$(OutputPath)\StronglyTypedIds.Attributes.dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
-    <None Include="$(OutputPath)\StronglyTypedIds.Attributes.dll" Pack="true" PackagePath="lib\netstandard2.0" Visible="true" />
-  </ItemGroup>
-
 </Project>
