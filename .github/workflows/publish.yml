@@ -27,7 +27,7 @@ jobs:
     - name: Get Build Version
       shell: pwsh
       run: |
-        Import-Module (Resolve-Path('./build/GetBuildVersion.psm1'))
+        Import-Module (Resolve-Path('shell/GetBuildVersion.psm1'))
         Write-Host $Env:GITHUB_REF
         $version = GetBuildVersion -VersionString $Env:GITHUB_REF
         echo "BUILD_VERSION=$version" | Out-File -FilePath $Env:GITHUB_ENV -Encoding utf-8 -Append
