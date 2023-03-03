@@ -1,4 +1,4 @@
-# StronglyTypedId
+﻿1# StronglyTypedId
 
 ![StronglyTypedId logo](https://raw.githubusercontent.com/andrewlock/StronglyTypedId/master/logo.png)
 
