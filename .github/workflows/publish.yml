@@ -1,5 +1,5 @@
 ﻿
-name: CI
+name: Publish
 
 on:
   create:
