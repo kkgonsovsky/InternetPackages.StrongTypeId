@@ -44,7 +44,7 @@ jobs:
 
       - name: Show Secret
         run:   
-          echo ${{secrets.NUGET_TOKEN}}
+          echo '${{secrets.NUGET_TOKEN}}'
 
       - name: Publish
         run: 
