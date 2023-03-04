@@ -1,1 +1,1 @@
-﻿StrongTypeId
+﻿StrongTypeId + Swagger
