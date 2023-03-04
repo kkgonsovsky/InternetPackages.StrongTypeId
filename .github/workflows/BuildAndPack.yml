@@ -15,7 +15,7 @@ jobs:
   ubuntu-latest:
     env:
       BUILD_CONFIG: 'Release'
-      SOLUTION: 'StrongTypeId.sln'
+      SOLUTION: 'StronglyTypedId.sln'
       BUILD_VERSION: '1.1.1'
 
     name: ubuntu-latest
@@ -35,4 +35,4 @@ jobs:
 
       - name: Publish
         run: 
-          nuget push **\*.nupkg -Source 'https://api.nuget.org/v3/index.json' -ApiKey ${{secrets.NUGET_TOKEN}}
+          nuget push src\**\*.nupkg -Source 'https://api.nuget.org/v3/index.json' -ApiKey ${{secrets.NUGET_TOKEN}}
