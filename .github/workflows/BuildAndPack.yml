@@ -36,9 +36,12 @@ jobs:
       - name: Build
         run: dotnet build $SOLUTION --configuration release -p:Version=$BUILD_VERSION --no-restore
 
+      - name: Build
+        run: dotnet pack $SOLUTION --configuration release -p:Version=$BUILD_VERSION --no-restore
+
       - name: Run tests
         run: dotnet test /p:Configuration=release --no-restore --no-build --verbosity normal
 
       - name: Publish
         run: 
-          nuget push src\**\*.nupkg -Source 'https://api.nuget.org/v3/index.json' -ApiKey ${{secrets.NUGET_TOKEN}}
+          nuget push **\*.nupkg -Source 'https://api.nuget.org/v3/index.json' -ApiKey ${{secrets.NUGET_TOKEN}}
