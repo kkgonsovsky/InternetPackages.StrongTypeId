@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net7</TargetFramework>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <Nullable>enable</Nullable>
     <PackageId>StronglyTypedId</PackageId>
@@ -11,7 +11,6 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.3" PrivateAssets="all" />
     <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.0.1" PrivateAssets="all" />
-    <ProjectReference Include="..\StronglyTypedIds.Attributes\StronglyTypedIds.Attributes.csproj" PrivateAssets="All" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,8 +21,6 @@
 
   <ItemGroup>
     <None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
-    <None Include="$(OutputPath)\StronglyTypedIds.Attributes.dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
-    <None Include="$(OutputPath)\StronglyTypedIds.Attributes.dll" Pack="true" PackagePath="lib\netstandard2.0" Visible="true" />
   </ItemGroup>
 
 </Project>
