@@ -16,7 +16,6 @@ jobs:
     env:
       BUILD_CONFIG: 'Release'
       SOLUTION: 'StronglyTypedId.sln'
-      BUILD_VERSION: '2.1.1'
 
     name: ubuntu-latest
     runs-on: ubuntu-latest
@@ -34,17 +33,10 @@ jobs:
         run: nuget restore $SOLUTION
 
       - name: Build
-        run: dotnet build $SOLUTION --configuration release -p:Version=$BUILD_VERSION --no-restore
+        run: dotnet build $SOLUTION --configuration release --no-restore
 
       - name: Build
-        run: dotnet pack $SOLUTION --configuration release -p:Version=$BUILD_VERSION --no-restore
-
-      - name: Run tests
-        run: dotnet test /p:Configuration=release --no-restore --no-build --verbosity normal
-
-      - name: Show Secret
-        run:   
-          echo '${{secrets.NUGET_TOKEN}}'
+        run: dotnet pack $SOLUTION --configuration release --no-restore
 
       - name: Publish
         run: 
