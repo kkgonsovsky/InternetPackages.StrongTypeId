@@ -4,15 +4,15 @@
 
 
   <PropertyGroup>
-    <Authors>Andrew Lock</Authors>
-    <Copyright>Copyright © AndrewLock</Copyright>
+    <Authors>Internet</Authors>
+    <Copyright>Internet</Copyright>
     <NeutralLanguage>en-GB</NeutralLanguage>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>logo.png</PackageIcon>
-    <PackageProjectUrl>https://github.com/andrewlock/StronglyTypedId</PackageProjectUrl>
-    <PackageTags>stronglytypedid attribute generator generation codegen codegenerator codegeneration netescapades</PackageTags>
-    <RepositoryUrl>https://github.com/andrewlock/StronglyTypedId</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/kkgonsovsky/StronglyTypedId</PackageProjectUrl>
+    <PackageTags></PackageTags>
+    <RepositoryUrl>https://github.com/kkgonsovsky/StronglyTypedId</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <CheckEolTargetFramework>false</CheckEolTargetFramework>
   </PropertyGroup>
