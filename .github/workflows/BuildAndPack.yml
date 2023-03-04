@@ -36,4 +36,4 @@ jobs:
         include-prerelease: true
 
     - name: Build
-      run: dotnet build $SOLUTION --configuration release -p:Version=$BUILD_VERSION --no-restore
+      run: dotnet build $SOLUTION --configuration release -p:Version=$VERSION --no-restore
