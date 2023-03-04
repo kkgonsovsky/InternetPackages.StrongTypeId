@@ -32,10 +32,10 @@ jobs:
             ~/.nuget/packages
             !~/.nuget/packages/stronglytypeid
           key: ${{ runner.os }}-${{ hashFiles('**/global.json', '**/*.csproj') }}
+      - name: rights
+        run: chmod +x ./build.cmd
       - name: Run './build.cmd Clean Test TestPackages PushToNuGet'
-        run: 
-          chmod +x ./build.cmd
-          ./build.cmd Clean Test TestPackages PushToNuGet
+        run: ./build.cmd Clean Test TestPackages PushToNuGet
         env:
           GithubToken: ${{ secrets.GITHUB_TOKEN }}
           NuGetToken: ${{ secrets.NUGET_TOKEN }}
