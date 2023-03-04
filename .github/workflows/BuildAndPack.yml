@@ -16,6 +16,7 @@ jobs:
     env:
       BUILD_CONFIG: 'Release'
       SOLUTION: 'StrongTypeId.sln'
+      BUILD_VERSION: '1.1.1'
 
     name: ubuntu-latest
     runs-on: ubuntu-latest
