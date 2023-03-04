@@ -13,6 +13,10 @@ on:
 
 jobs:
   ubuntu-latest:
+    env:
+      BUILD_CONFIG: 'Release'
+      SOLUTION: 'StrongTypeId.sln'
+
     name: ubuntu-latest
     runs-on: ubuntu-latest
     steps:
@@ -22,28 +26,12 @@ jobs:
           dotnet-version: '7.0.x'
           include-prerelease: true      
 
-      - name: Cache .nuke/temp, ~/.nuget/packages
-        uses: actions/cache@v2
-        with:
-          path: |
-            .nuke/temp
-            ~/.nuget/packages
-            !~/.nuget/packages/stronglytypeid
-          key: ${{ runner.os }}-${{ hashFiles('**/global.json', '**/*.csproj') }}
+      - name: Build
+        run: dotnet build $SOLUTION --configuration release -p:Version=$BUILD_VERSION --no-restore
 
-      - name: rights
-        run: chmod +x ./build.cmd
+      - name: Run tests
+        run: dotnet test /p:Configuration=release --no-restore --no-build --verbosity normal
 
-      - name: rights2
-        run: chmod +x ./build.sh
-
-      - name: Run './build.cmd Clean Test TestPackages PushToNuGet'
-        run: ./build.cmd Clean TestPackages PushToNuGet
-        env:
-          GithubToken: ${{ secrets.GITHUB_TOKEN }}
-          NuGetToken: ${{ secrets.NUGET_TOKEN }}
-          MSBuildEnableWorkloadResolver: false
-      - uses: actions/upload-artifact@v1
-        with:
-          name: artifacts
-          path: artifacts
+      - name: Publish
+        run: 
+          nuget push **\*.nupkg -Source 'https://api.nuget.org/v3/index.json' -ApiKey ${{secrets.NUGET_TOKEN}}
