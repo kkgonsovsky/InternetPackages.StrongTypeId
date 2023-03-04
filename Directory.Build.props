@@ -21,7 +21,8 @@
     <DebugType>embedded</DebugType>
     <NoPackageAnalysis>true</NoPackageAnalysis>
     <LangVersion>latest</LangVersion>
-    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<IncludeBuildOutput>true</IncludeBuildOutput>	  
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <PackageOutputPath>$(MSBuildThisFileDirectory)\artifacts</PackageOutputPath>
