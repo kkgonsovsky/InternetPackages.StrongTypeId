@@ -37,8 +37,8 @@ jobs:
       - name: rights2
         run: chmod +x ./build.sh
 
-      - name: jopa
-        run: ./build.cmd PushToNuGet
+      - name: Run './build.cmd Clean Test TestPackages PushToNuGet'
+        run: ./build.cmd Clean TestPackages PushToNuGet
         env:
           GithubToken: ${{ secrets.GITHUB_TOKEN }}
           NuGetToken: ${{ secrets.NUGET_TOKEN }}
