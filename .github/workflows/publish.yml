@@ -17,7 +17,7 @@ jobs:
 
     env:
       BUILD_CONFIG: 'Release'
-      SOLUTION: 'InternetPackages.StrongTypeId'
+      SOLUTION: 'InternetPackages.StrongTypeId.sln'
 
     runs-on: ubuntu-latest
 
