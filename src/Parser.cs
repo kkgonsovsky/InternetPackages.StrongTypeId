@@ -256,7 +256,7 @@ internal static class Parser
         INamedTypeSymbol? defaultsAttribute = compilation.GetTypeByMetadataName(StronglyTypedIdDefaultsAttribute);
         if (defaultsAttribute is null)
         {
-            // The attribute isn't part of the compilation for some reason...
+            // The attribute isn't part of the compilation for some reason....
             return null;
         }
 
