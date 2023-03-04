@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UeM9E70ZZjuDpNfeXgKNc+keHGMQKdw7T56HeNku8ZxSFcCaFt/2YuLM8Q3AAHXPdHFDuCN6gLl+uqzDvmXWPA==",
+  "dgSpecHash": "z0wJ0xoRGdQCW405oLV0ZhSLdqSeajiNwKzz9W0G+xe57y/wvY2Nw5KmaFVWFhzp6rosYoRnJrlIS5efUYJJKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\source\\StrongTypedIdPackage\\src\\StrongTypeId.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\source\\InternetPackages.StrongTypeId\\src\\StrongTypeId.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.codeanalysis.common\\4.0.1\\microsoft.codeanalysis.common.4.0.1.nupkg.sha512",

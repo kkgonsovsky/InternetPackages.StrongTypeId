@@ -14,5 +14,5 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.EnforceExtendedAnalyzerRules = 
-build_property.RootNamespace = InternetPackages.StrongTypeId
-build_property.ProjectDir = C:\Users\Administrator\source\StrongTypedIdPackage\src\
+build_property.RootNamespace = StrongTypeId
+build_property.ProjectDir = C:\Users\Administrator\source\InternetPackages.StrongTypeId\src\

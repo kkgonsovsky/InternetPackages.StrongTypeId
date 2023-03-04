@@ -10,3 +10,15 @@ C:\Users\Administrator\source\StrongTypedIdPackage\src\obj\Release\net7.0\Strong
 C:\Users\Administrator\source\StrongTypedIdPackage\src\obj\Release\net7.0\refint\StrongTypeId.dll
 C:\Users\Administrator\source\StrongTypedIdPackage\src\obj\Release\net7.0\StrongTypeId.pdb
 C:\Users\Administrator\source\StrongTypedIdPackage\src\obj\Release\net7.0\ref\StrongTypeId.dll
+C:\Users\Administrator\source\InternetPackages.StrongTypeId\src\obj\Release\net7.0\StrongTypeId.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\InternetPackages.StrongTypeId\src\obj\Release\net7.0\StrongTypeId.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\InternetPackages.StrongTypeId\src\obj\Release\net7.0\StrongTypeId.dll
+C:\Users\Administrator\source\InternetPackages.StrongTypeId\src\obj\Release\net7.0\refint\StrongTypeId.dll
+C:\Users\Administrator\source\InternetPackages.StrongTypeId\src\obj\Release\net7.0\StrongTypeId.pdb
+C:\Users\Administrator\source\InternetPackages.StrongTypeId\src\bin\Release\net7.0\StrongTypeId.deps.json
+C:\Users\Administrator\source\InternetPackages.StrongTypeId\src\bin\Release\net7.0\StrongTypeId.dll
+C:\Users\Administrator\source\InternetPackages.StrongTypeId\src\bin\Release\net7.0\StrongTypeId.pdb
+C:\Users\Administrator\source\InternetPackages.StrongTypeId\src\obj\Release\net7.0\StrongTypeId.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\InternetPackages.StrongTypeId\src\obj\Release\net7.0\StrongTypeId.AssemblyInfo.cs
+C:\Users\Administrator\source\InternetPackages.StrongTypeId\src\obj\Release\net7.0\StrongTypeId.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\InternetPackages.StrongTypeId\src\obj\Release\net7.0\ref\StrongTypeId.dll

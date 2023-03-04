@@ -1,18 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Product>InternetPackages.StrongTypeId</Product>
-    <Title>InternetPackages.StrongTypeId</Title>
+    <Product>StrongTypeId</Product>
+    <Title>StrongTypeId</Title>
     <Version>0.0.0</Version>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <TargetFrameworks>net7.0</TargetFrameworks>
     <Nullable>enable</Nullable>
-    <RootNamespace>InternetPackages.StrongTypeId</RootNamespace>
+    <RootNamespace>StrongTypeId</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
     <PackageId>InternetPackages.StrongTypeId</PackageId>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/kkgonsovsky/StronglyTypedIdNuget</RepositoryUrl>
+    <RepositoryUrl>https://github.com/kkgonsovsky/StrongTypedId</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

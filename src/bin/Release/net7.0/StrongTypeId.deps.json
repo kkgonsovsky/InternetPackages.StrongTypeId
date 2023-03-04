@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "StrongTypeId/1.1.5": {
+      "StrongTypeId/1.1.6": {
         "dependencies": {
           "Microsoft.CodeAnalysis.Analyzers": "3.3.3",
           "Microsoft.CodeAnalysis.CSharp": "4.0.1"
@@ -141,7 +141,7 @@
     }
   },
   "libraries": {
-    "StrongTypeId/1.1.5": {
+    "StrongTypeId/1.1.6": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

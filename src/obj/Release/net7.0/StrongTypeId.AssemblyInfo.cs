@@ -12,12 +12,12 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("StrongTypeId")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.1.5.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.1.5")]
-[assembly: System.Reflection.AssemblyProductAttribute("InternetPackages.StrongTypeId")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.1.6.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.1.6")]
+[assembly: System.Reflection.AssemblyProductAttribute("StrongTypeId")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StrongTypeId")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.1.5.0")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/kkgonsovsky/StronglyTypedIdNuget")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.1.6.0")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/kkgonsovsky/StrongTypedId")]
 
 // Создано классом WriteCodeFragment MSBuild.
 

@@ -765,13 +765,13 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "1.1.5",
+    "version": "1.1.6",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\StrongTypedIdPackage\\src\\StrongTypeId.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\source\\InternetPackages.StrongTypeId\\src\\StrongTypeId.csproj",
       "projectName": "InternetPackages.StrongTypeId",
-      "projectPath": "C:\\Users\\Administrator\\source\\StrongTypedIdPackage\\src\\StrongTypeId.csproj",
+      "projectPath": "C:\\Users\\Administrator\\source\\InternetPackages.StrongTypeId\\src\\StrongTypeId.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\source\\StrongTypedIdPackage\\src\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\source\\InternetPackages.StrongTypeId\\src\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
