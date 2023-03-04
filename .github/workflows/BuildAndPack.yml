@@ -38,7 +38,7 @@ jobs:
         run: chmod +x ./build.sh
 
       - name: Run './build.cmd Clean Test TestPackages PushToNuGet'
-        run: ./build.cmd Clean Test PushToNuGet
+        run: ./build.cmd Clean TestPackages PushToNuGet
         env:
           GithubToken: ${{ secrets.GITHUB_TOKEN }}
           NuGetToken: ${{ secrets.NUGET_TOKEN }}
