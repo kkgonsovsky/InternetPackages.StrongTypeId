@@ -153,12 +153,8 @@ class Build : NukeBuild
         {
             var packages = ArtifactsDirectory.GlobFiles("*.nupkg");
             DotNetNuGetPush(s => s
-<<<<<<< Updated upstream
                 .SetApiKey(NuGetToken)
                 .SetSource(NugetOrgUrl)
-=======
-                .SetSource("github")
->>>>>>> Stashed changes
                 .EnableSkipDuplicate()
                 .CombineWith(packages, (x, package) => x
                     .SetTargetPath(package)));
