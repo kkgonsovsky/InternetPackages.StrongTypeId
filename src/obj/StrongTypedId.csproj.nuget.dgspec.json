@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\Administrator\\source\\StrongTypedIdPackage\\src\\StrongTypedId.csproj",
-        "projectName": "BettingPackages.StronglyTypedId",
+        "projectName": "InternetPackages.StrongTypeId",
         "projectPath": "C:\\Users\\Administrator\\source\\StrongTypedIdPackage\\src\\StrongTypedId.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Administrator\\source\\StrongTypedIdPackage\\src\\obj\\",

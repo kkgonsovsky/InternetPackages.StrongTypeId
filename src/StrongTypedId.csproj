@@ -15,12 +15,10 @@
   </PropertyGroup>
 
  <PropertyGroup>
-    <PackageId>BettingPackages.StronglyTypedId</PackageId>
+    <PackageId>InternetPackages.StrongTypeId</PackageId>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/kkgonsovsky/StronglyTypedIdPackage</RepositoryUrl>
     <RootNamespace>InternetPackages.StrongTypeId</RootNamespace>
   </PropertyGroup>
-
-
 
 </Project>
