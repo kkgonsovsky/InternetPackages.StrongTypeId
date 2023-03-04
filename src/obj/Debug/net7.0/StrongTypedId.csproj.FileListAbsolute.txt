@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\StrongTypedIdPackage\src\bin\Debug\net7.0\StrongTypedId.deps.json
+C:\Users\Administrator\source\StrongTypedIdPackage\src\bin\Debug\net7.0\StrongTypedId.dll
+C:\Users\Administrator\source\StrongTypedIdPackage\src\bin\Debug\net7.0\StrongTypedId.pdb
+C:\Users\Administrator\source\StrongTypedIdPackage\src\obj\Debug\net7.0\StrongTypedId.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\StrongTypedIdPackage\src\obj\Debug\net7.0\StrongTypedId.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\StrongTypedIdPackage\src\obj\Debug\net7.0\StrongTypedId.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\StrongTypedIdPackage\src\obj\Debug\net7.0\StrongTypedId.AssemblyInfo.cs
+C:\Users\Administrator\source\StrongTypedIdPackage\src\obj\Debug\net7.0\StrongTypedId.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\StrongTypedIdPackage\src\obj\Debug\net7.0\StrongTypedId.dll
+C:\Users\Administrator\source\StrongTypedIdPackage\src\obj\Debug\net7.0\refint\StrongTypedId.dll
+C:\Users\Administrator\source\StrongTypedIdPackage\src\obj\Debug\net7.0\StrongTypedId.pdb
+C:\Users\Administrator\source\StrongTypedIdPackage\src\obj\Debug\net7.0\ref\StrongTypedId.dll

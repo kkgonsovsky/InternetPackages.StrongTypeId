@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\StrongTypedIdPackage\\src\\StrongTypedIdPackage.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\source\\StrongTypedIdPackage\\src\\StrongTypedId.csproj",
       "projectName": "BettingPackages.StronglyTypedId",
-      "projectPath": "C:\\Users\\Administrator\\source\\StrongTypedIdPackage\\src\\StrongTypedIdPackage.csproj",
+      "projectPath": "C:\\Users\\Administrator\\source\\StrongTypedIdPackage\\src\\StrongTypedId.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Administrator\\source\\StrongTypedIdPackage\\src\\obj\\",
       "projectStyle": "PackageReference",

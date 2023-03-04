@@ -11,6 +11,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\Administrator\source\StrongTypedIdPackage\src\bin\Debug\net7.0\StrongTypedIdPackage.dll" target="lib\net7.0\StrongTypedIdPackage.dll" />
+    <file src="C:\Users\Administrator\source\StrongTypedIdPackage\src\bin\Debug\net7.0\StrongTypedId.dll" target="lib\net7.0\StrongTypedId.dll" />
   </files>
 </package>

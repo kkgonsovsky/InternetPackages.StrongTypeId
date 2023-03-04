@@ -5,12 +5,11 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D4B6D831-63B0-4BCB-87CC-9BCA2C431D03}"
 	ProjectSection(SolutionItems) = preProject
-		.github\workflows\build.yml = .github\workflows\build.yml
-		.build\GetBuildVersion.ps1 = .build\GetBuildVersion.ps1
+		shell\GetBuildVersion.psm1 = shell\GetBuildVersion.psm1
 		.github\workflows\publish.yml = .github\workflows\publish.yml
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrongTypedIdPackage", "src\StrongTypedIdPackage.csproj", "{11E411A0-34A8-4033-B901-E7706EC80D57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrongTypedId", "src\StrongTypedId.csproj", "{11E411A0-34A8-4033-B901-E7706EC80D57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
