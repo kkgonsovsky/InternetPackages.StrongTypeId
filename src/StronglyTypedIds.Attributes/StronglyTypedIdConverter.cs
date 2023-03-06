@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StronglyTypedIds
+namespace Tennisi.StronglyTypedIds
 {
     /// <summary>
     /// Converters used to to serialize/deserialize strongly-typed ID values

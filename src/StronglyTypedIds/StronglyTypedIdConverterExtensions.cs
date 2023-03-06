@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace StronglyTypedIds
+namespace Tennisi.StronglyTypedIds
 {
     internal static class StronglyTypedIdConverterExtensions
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace StronglyTypedIds
+namespace Tennisi.StronglyTypedIds
 {
     /// <summary>
     /// Interfaces and patterns the strongly typed id should implement

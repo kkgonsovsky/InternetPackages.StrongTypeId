@@ -1,5 +1,5 @@
 
-namespace StronglyTypedIds
+namespace Tennisi.StronglyTypedIds
 {
     internal readonly struct StronglyTypedIdConfiguration
     {

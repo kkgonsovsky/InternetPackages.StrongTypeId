@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace StronglyTypedIds
+namespace Tennisi.StronglyTypedIds
 {
     internal static class SourceGenerationHelper
     {

@@ -1,4 +1,4 @@
-namespace StronglyTypedIds
+namespace Tennisi.StronglyTypedIds
 {
     internal static class Constants
     {

@@ -5,9 +5,9 @@ using System.Threading;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
-using StronglyTypedIds.Diagnostics;
+using Tennisi.StronglyTypedIds.Diagnostics;
 
-namespace StronglyTypedIds;
+namespace Tennisi.StronglyTypedIds;
 
 internal static class Parser
 {

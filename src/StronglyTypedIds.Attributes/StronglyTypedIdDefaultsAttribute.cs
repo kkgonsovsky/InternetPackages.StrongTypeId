@@ -1,6 +1,6 @@
 using System;
 
-namespace StronglyTypedIds
+namespace Tennisi.StronglyTypedIds
 {
     /// <summary>
     /// Used to control the default Place on partial structs to make the type a strongly-typed ID

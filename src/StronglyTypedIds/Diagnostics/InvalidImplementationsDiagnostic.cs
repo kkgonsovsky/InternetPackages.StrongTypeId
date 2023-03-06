@@ -1,6 +1,6 @@
 using Microsoft.CodeAnalysis;
 
-namespace StronglyTypedIds.Diagnostics
+namespace Tennisi.StronglyTypedIds.Diagnostics
 {
     internal static class InvalidImplementationsDiagnostic
     {

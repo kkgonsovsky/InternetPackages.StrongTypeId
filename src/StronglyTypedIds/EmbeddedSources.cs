@@ -3,7 +3,7 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 
-namespace StronglyTypedIds
+namespace Tennisi.StronglyTypedIds
 {
     internal static class EmbeddedSources
     {
